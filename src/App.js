@@ -10,9 +10,9 @@ class App extends Component {
         <div className="App-header">
           <h2>Welcome to React Auth with Firebase</h2>
         </div>
-        <p className="App-intro">
+        <div className="App-intro">
           <FirebaseAuth config={config} />
-        </p>
+        </div>
       </div>
     );
   }
